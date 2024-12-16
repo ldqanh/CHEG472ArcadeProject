@@ -13,7 +13,7 @@ scaler = joblib.load("scaler.pkl")
 
 
 # Initialize the OpenAI LLM via LangChain
-llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key="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")
+llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key="")
 
 # Define the Prompt Template for LangChain
 prompt = PromptTemplate(
