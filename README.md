@@ -88,10 +88,9 @@ This project focuses on data collection, analysis, and machine learning to deriv
 
 
 ## Authors
-- Anh Le (#)  
-- Viola Lin (#)  
+- Anh Le  
+- Viola Lin   
 
 ---
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+
