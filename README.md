@@ -1,64 +1,97 @@
 # CHEG472ArcadeProject
-Project Overview
-This project involves collecting, analyzing, and modeling data from mini-bowling and arcade games to derive actionable insights. It includes exploratory data analysis (EDA), predictive modeling, and conversational AI development using LangChain.
+# Bowling Data Analysis Project 🎮🎳
 
-Project Structure
-Data Collection
+## Overview
+This project focuses on data collection, analysis, and machine learning to derive insights from mini-bowling and arcade games. It also explores creating a chatbot using LangChain to suggest strategies based on the data.
 
-Mini-Bowling:
-Number of pins knocked down per round.
-Estimated throw angle.
-Bowling speed categorized as "slow," "medium," or "fast."
-Total score per player.
-Arcade Games:
-Game name.
-Final score per player.
-Number of attempts/lives used.
-Observed player strategies.
-Data Preprocessing
+---
 
-Cleaning and organizing data to address missing or inconsistent values.
-Separating features (inputs) and labels (outputs) for modeling.
-Exploratory Data Analysis (EDA)
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [How to Run the Project](#how-to-run-the-project)
+- [Deliverables](#deliverables)
+- [Submission Details](#submission-details)
+- [Authors](#authors)
 
-Visualizations using Python libraries such as Pandas and Matplotlib.
-Identifying trends (e.g., how throw angle affects pins knocked down) and anomalies.
-Machine Learning Model
+---
 
-Splitting data into training and testing sets.
-Developing a predictive model using Scikit-learn.
-Evaluating model performance with metrics like accuracy or R² score.
-LangChain Chatbot
+## Project Structure
+1. **Data Collection**
+   - **Bowling**:
+     - Number of pins knocked down per round.
+     - Estimated throw angle.
+     - Bowling speed categorized as "slow," "medium," or "fast."
+     - Total score per player.
 
-Designing a chatbot that suggests strategies based on collected data.
-Utilizing pre-trained large language models via LangChain.
-Deploying the chatbot (e.g., Streamlit, Gradio).
-Technologies Used
-Python Libraries: Pandas, Matplotlib, Scikit-learn
-Machine Learning Frameworks: Scikit-learn
-Conversational AI: LangChain
-Hosting Tools (optional): Streamlit, Gradio
-How to Run the Project
-Data Collection:
+2. **Data Preprocessing**
+   - Cleaning and organizing data to address missing or inconsistent values.
+   - Separating features (inputs) and labels (outputs) for machine learning.
 
-Use the template provided in the instructions to collect game data.
-Save the structured data in an Excel or CSV file.
-Preprocessing and EDA:
+3. **Exploratory Data Analysis (EDA)**
+   - Visualizations using Python libraries like Pandas and Matplotlib.
+   - Identifying trends (e.g., throw angle vs. pins knocked down) and anomalies.
 
-Run the provided Jupyter Notebook/Google Colab file.
-Ensure you install all dependencies: pandas, matplotlib, and scikit-learn.
-Machine Learning Model:
+4. **Machine Learning Model**
+   - Splitting data into training and testing sets.
+   - Developing a predictive model using Scikit-learn.
+   - Evaluating model performance with metrics like accuracy or R² score.
 
-Use the dataset generated from preprocessing to train the predictive model.
-Run the Python script or notebook provided to evaluate model performance.
-LangChain Chatbot:
+5. **LangChain Chatbot**
+   - Designing a chatbot that suggests strategies based on collected data.
+   - Utilizing pre-trained large language models via LangChain.
+   - Deploying the chatbot (e.g., Streamlit, Gradio).
 
-Use the LangChain script to deploy the chatbot.
-Test inputs (e.g., game strategies) to receive suggestions.
-Deliverables
-Cleaned dataset in Excel or CSV format.
-Jupyter Notebook/Google Colab file with:
-Preprocessing steps.
-EDA visualizations.
-Machine learning implementation and results.
-LangChain script or hosted chatbot link.
+---
+
+## Technologies Used
+- **Programming Language**: Python
+- **Libraries**: Pandas, Matplotlib, Scikit-learn, LangChain
+- **Hosting Tools** (optional): Streamlit, Gradio
+
+---
+
+## How to Run the Project
+### Prerequisites
+- Python 3.8 or above installed on your machine.
+- Required libraries installed: `pandas`, `matplotlib`, `scikit-learn`, `langchain`.
+
+### Steps
+1. **Data Collection**:
+   - Use the provided data collection template to record game data.
+   - Save the structured data in an Excel or CSV file.
+
+2. **Preprocessing and EDA**:
+   - Open the Jupyter Notebook or Google Colab file provided in the repository.
+   - Run the preprocessing steps to clean and organize the data.
+   - Generate EDA visualizations and insights.
+
+3. **Machine Learning Model**:
+   - Use the cleaned dataset to train a machine learning model.
+   - Run the script/notebook to evaluate model performance.
+
+4. **LangChain Chatbot**:
+   - Run the LangChain script to deploy the chatbot.
+   - Input game data or strategies to test chatbot suggestions.
+
+---
+
+## Deliverables
+1. Cleaned dataset in Excel or CSV format.
+2. Jupyter Notebook/Google Colab file containing:
+   - Preprocessing steps.
+   - EDA visualizations and insights.
+   - Machine learning implementation and results.
+3. LangChain script or hosted chatbot link.
+
+---
+
+
+## Authors
+- Anh Le (#)  
+- Viola Lin (#)  
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE).
