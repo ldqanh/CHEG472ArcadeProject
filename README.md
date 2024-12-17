@@ -88,7 +88,7 @@ This project focuses on data collection, analysis, and machine learning to deriv
 
 
 ## Instructors
-- Prof. Jude Okolie (Department of Chemical Engineering, Bucknell University)
+- Dr. Jude Okolie (Department of Chemical Engineering, Bucknell University)
 
 ---
 
